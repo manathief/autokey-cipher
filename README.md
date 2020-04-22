@@ -1,4 +1,4 @@
- autokey-cipher
+## autokey-cipher
 
  The Autokey Cipher is a polyalphabetic substitution cipher. It is closely related to the Vigenere cipher, 
  but uses a different method of generating the key. It was invented by Blaise de Vigenère in 1586, and is 
@@ -7,13 +7,13 @@
 
  I've based my implementation directly off the format presented on their website.
  
-# To use this implementation:
+## To use this implementation:
 
-## To create a single instance of the cipher, where the first argument is the key and the second is the plaintext:
+### To create a single instance of the cipher, where the first argument is the key and the second is the plaintext:
 
     Autokey("hello").encipher("defend the east wall of the castle");
 
-## To create a new cipher object use the following constructor/functions:
+### To create a new cipher object use the following constructor/functions:
 
     Autokey a;
     a.setKey("fortification");
